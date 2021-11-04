@@ -20,4 +20,4 @@ mbt8xxx bluetooth module might crash the system.
 
 Blacklist them in:
 
-`sudo echo $'sd8xxx\nmlan\nmbt8xxx' >> /etc/modprobe.d/blacklist.conf`
+`sudo echo $'\nblacklist sd8xxx\nblacklist mlan\nblacklist mbt8xxx' >> /etc/modprobe.d/blacklist.conf`
